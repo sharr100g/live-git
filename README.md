@@ -13,3 +13,12 @@ git diff HEAD~1 :compares HEAD with commit <number> ago (relative)
 git diff --STAGED : runs git diff between the staging area and the last known state
 git diff <HASH): compares HEAD with the commit <HASH>
 
+git restore --source <hash> <file> restore file to hash or head
+   -git checkout <hash or head> <file> -- restores file to <hash or head>
+     ----- try to avoid the following ---
+     - git checkout <hash or head>: if you forget the file, you end up in detached state
+        then run this command either of the following commands to correct it:
+        git checkout main : got back to main
+        git switch main: go back to main
+
+
