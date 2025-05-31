@@ -1,5 +1,6 @@
 
 # notes for local
+
 git init: initialize current folder as a git respository
 git clone <URL>: brings the git repo from <URL> to current folder
 git status:  what you need to know about respository
