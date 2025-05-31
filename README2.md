@@ -32,7 +32,6 @@ $ printf "host=github.com\nprotocol=https\n" | git credential  fill
 protocol=https
 host=github.com
 username=sharr100g
-password=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
 
 git remote add <name> <url> : adds the url as a remote with the name
 git remote -v: : provides all of the remotes you have set up on your local
