@@ -31,10 +31,6 @@ origin  https://github.com/sharr100g/live-git.git (push)
 
 --show commands in GitHub cache
 $ printf "host=github.com\nprotocol=https\n" | git credential  fill
-protocol=https
-host=github.com
-username=sharr100g
-
 
 git remote add <name> <url> : adds the url as a remote with the name
 git remote -v: : provides all of the remotes you have set up on your local
