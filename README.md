@@ -21,4 +21,10 @@ git restore --source <hash> <file> restore file to hash or head
         git checkout main : got back to main
         git switch main: go back to main
 
+sharr@S-H-hpc MINGW64 /c/users/sharr/git/live-git (main)
+$ git remote -v
+origin  https://github.com/sharr100g/live-git.git (fetch)
+origin  https://github.com/sharr100g/live-git.git (push)
+
+
 
