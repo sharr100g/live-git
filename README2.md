@@ -21,20 +21,3 @@ git restore --source <hash> <file> restore file to hash or head
         then run this command either of the following commands to correct it:
         git checkout main : got back to main
         git switch main: go back to main
-
-sharr@S-H-hpc MINGW64 /c/users/sharr/git/live-git (main)
-$ git remote -v
-origin  https://github.com/sharr100g/live-git.git (fetch)
-origin  https://github.com/sharr100g/live-git.git (push)
-
---show commands in GitHub cache
-$ printf "host=github.com\nprotocol=https\n" | git credential  fill
-protocol=https
-host=github.com
-username=sharr100g
-
-git remote add <name> <url> : adds the url as a remote with the name
-git remote -v: : provides all of the remotes you have set up on your local
-git push <where> <what> : pushes the what branch to where
-
-git remote remove <name> : remove remmote
